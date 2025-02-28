@@ -10,7 +10,7 @@ import { ReactNode } from 'react';
 
 const HomePage = lazy(() => import('./Pages/HomePage'))
 const FindJob = lazy(() => import('./Pages/FindJob'))
-const FindtalentPage = lazy(() => import('./Pages/FindtalentPage'))
+const FindTalentPage = lazy(() => import('./Pages/FindTalentPage'))
 const TalentProfilePage = lazy(() => import('./Pages/TalentProfilePage'))
 const PostJobPage = lazy(() => import('./Pages/PostJobPage'))
 const Header = lazy(() => import('./Components/header/Header'))
@@ -51,7 +51,7 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/find-jobs" element={<FindJob />} />
-            <Route path="/find-talents" element={<FindtalentPage />} />
+            <Route path="/find-talents" element={<FindTalentPage />} />
             <Route path="/talent-profile" element={<TalentProfilePage />} />
             <Route path="/post-jobs" element={<PostJobPage />} />
             <Route path="/jobs" element={<JobDescPage />} />

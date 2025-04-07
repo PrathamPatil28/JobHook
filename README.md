@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+🚀 Introducing JobHook – The Future of Job Portals!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Finding the right job or hiring the perfect candidate shouldn't be complicated. That’s why I built JobHook, a smart, interactive, and real-time job portal designed to make the process effortless! 🎯
 
-Currently, two official plugins are available:
+🔥 Why JobHook?
+💼 Seamless Job Search & Hiring – Smooth, user-friendly experience
+⚡ Real-time Notifications – Stay updated instantly via WebSocket
+🔒 Secure Authentication – Powered by JWT for maximum protection
+📩 OTP-based Password Reset – Quick & hassle-free recovery
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tech Stack That Makes It Happen!
+🔹 Frontend:
+✨ TypeScript + React.js – Speed, scalability, and smooth UI
+🎨 Mantine UI – Modern & aesthetic design
+🔄 Redux Toolkit – Efficient state management
+📱 Tailwind CSS – Fully responsive across all devices
 
-## Expanding the ESLint configuration
+🔹 Backend:
+🚀 Spring Boot – High performance & reliability
+🔐 JWT Authentication – Secure access control
+🔔 WebSocket (STOMP.js) – Instant job alerts & updates
+📧 Java Mail Sender – OTP-based password reset
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🌟 Bringing Employers & Job Seekers Closer, Smarter, and Faster!
+This is just the beginning! Would love to hear your thoughts & feedback. Let’s connect and grow together. 💬👇
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+#JobPortal #ReactJS #TypeScript #SpringBoot #WebSocket #ReduxToolkit #JWT #STOMPjs #MantineUI #TailwindCSS #FullStackDevelopment #Hiring #Tech #Innovation #JobHook 🚀

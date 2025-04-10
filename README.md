@@ -46,5 +46,10 @@ That’s why I built **JobHook**, a smart, interactive, and real-time job portal
 
 ## 📸 Screenshots
 
-> *(Add screenshots here for job listings, profile, notifications, etc.)*
+> ![Screenshot Job Portal Home Page](https://github.com/user-attachments/assets/d7be5584-5330-493c-a008-e5fdc7829461)
+> ![Screenshot Job Portal Find Jobs Page](https://github.com/user-attachments/assets/82e12bae-37c6-4d71-a63c-a12a3ffa331d)
+> ![Screenshot Job Portal  History Page](https://github.com/user-attachments/assets/26461020-aad4-4981-881b-7b17cf8fa934)
+
+
+
 

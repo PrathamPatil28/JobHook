@@ -33,7 +33,7 @@ const PostJob = () => {
              <div className="text-sm font-medium">Job Description</div>
              <TextEditor/>
          </div>
-         <div className="flex gap-4">
+         <div className="flex gap-5">
          <Button variant="light">Publish Job</Button>
          <Button variant="outlin">Save as Draft</Button>
          </div>

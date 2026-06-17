@@ -7,7 +7,7 @@ const Cards = (props:any) => {
     return (
         <Link to="/jobs" className="bg-mine-shaft-900 p-4 w-72 rounded-xl flex flex-col gap-3 hover:shadow-[0_0_5px_1px_yellow] cursor-pointer">
           <div className="flex justify-between ">
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-3 items-center">
               <div className="p-2 bg-mine-shaft-700 rounded-md">
                 <img className="h-7" src={`/Icons/${props.company}.png`} alt={props.comp} />
               </div>
